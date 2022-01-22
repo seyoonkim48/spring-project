@@ -33,7 +33,7 @@ const main = {
             alert(JSON.stringify(error));
         });
     },
-    update : () => {
+    update : function() {
         const data = {
             title: $('#title').val(),
             content: $('#content').val()
